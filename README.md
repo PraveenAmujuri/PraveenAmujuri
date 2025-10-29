@@ -1,98 +1,119 @@
-<h1 align="center">
-  Hi, I'm [Your Name]
-</h1>
+<h2 align="left">Hi 👋! My name is Praveen</h2>
 
-<h3 align="center">
-  B.Tech Student | Robotics Engineer | AI Developer | Full-Stack Creator
-</h3>
+###
 
-<p align="center">
-  I'm a third-year engineering student architecting the intersection of autonomous systems, intelligent software, and robust web infrastructure. I build systems that learn, adapt, and operate.
+<h3 align="left">BTech CSM Student | Robotics Developer | Machine Learning Engineer</h3>
+
+###
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=YOUR_GITHUB_USERNAME&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
+
+###
+
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="30" alt="express logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="30" alt="flask logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="30" alt="unity logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="30" alt="opencv logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="30" alt="tensorflow logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
+</div>
+
+###
+
+<h3 align="left">🎯 Expertise & Focus Areas</h3>
+
+###
+
+<p align="left">
+🤖 <b>Robotics & Autonomous Systems:</b> Unity-ROS integration, SLAM navigation (RTAB-Map), autonomous obstacle avoidance<br><br>
+🧠 <b>Machine Learning & AI:</b> NLP with TF-IDF, Random Forest classification, YOLOv8 object detection, computer vision<br><br>
+💻 <b>Full-Stack Development:</b> MERN stack (MongoDB, Express, React, Node.js), Flask backend, RESTful APIs<br><br>
+🔐 <b>Cybersecurity:</b> Ethical hacking methodologies, security testing, vulnerability assessment<br><br>
+📊 <b>Current Research:</b> Depth camera integration for live mapping, AI-driven perception systems, multi-sensor fusion
 </p>
 
----
+###
 
-### 🚀 My Core Focus
+<h3 align="left">🚀 Technical Projects</h3>
 
-* **🤖 Robotics & Simulation:** Engineering autonomous systems using ROS (Robot Operating System). Currently focused on my <a href="https://github.com/[YOUR_USERNAME]/LunaBot_Prototype">LunaBot Prototype</a> for the Smart India Hackathon.
-* **🧠 AI & Machine Learning:** Fascinated by continual learning. I'm exploring concepts for "Semi-AGI" systems that utilize automated self-training loops. Proficient with scikit-learn for data-driven insights.
-* **💻 Full-Stack Development:** Building responsive and scalable web applications using the MERN stack (Node.js, Express.js, React) to create intuitive control dashboards and user interfaces.
-* **⚙️ IT Automation:** Leveraging tools like Ansible to automate configuration management and deployments, ensuring systems are reliable and efficient.
+###
 
----
+<p align="left">
+<b>LunaBot - Autonomous Navigation Platform</b><br>
+Developed Unity-based simulation environment with ROS bridge for real-time robot control. Implemented SLAM mapping using RTAB-Map, integrated YOLOv8 for object detection, and configured move_base navigation with laser scanning for dynamic obstacle avoidance. Features depth camera integration and live dashboard visualization.<br><br>
 
-### 🛠️ My Technology Arsenal
+<b>AI-Powered Resume Screening System</b><br>
+Built ML pipeline using Random Forest classifier with TF-IDF vectorization for automated candidate evaluation. Engineered skill extraction algorithms, experience parsing modules, and ATS scoring integration. Achieved dynamic accuracy calculations with joblib model persistence for production deployment.<br><br>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ROS&logoColor=white" alt="ROS"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
-  <img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity"/>
-  
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible"/>
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+<b>Professional Portfolio Platform</b><br>
+Designed responsive web application featuring interactive UI components, project showcase with demo videos, GitHub repository integration, and optimized performance architecture. Implemented tour mode functionality and developer features for enhanced user experience.
 </p>
 
----
+###
 
-### 🏆 Featured Projects
+<h3 align="left">📚 Continuous Learning</h3>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/[YOUR_USERNAME]/LunaBot_Prototype">
-          LunaBot_Prototype (SIH 2025)
-        </a>
-      </h3>
-      <p>
-        My primary project for the Smart India Hackathon 2025. This is an autonomous lunar rover simulation featuring:
-      </p>
-      <ul>
-        <li><b>Core:</b> ROS for navigation and control.</li>
-        <li><b>Simulation:</b> Unity for the 3D environment.</li>
-        <li><b>Interface:</b> A web-based dashboard (built with React, Node.js, and Flask) for real-time telemetry and manual override.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="[LINK_TO_YOUR_PROJECT_REPO]">
-          Semi-AGI Concept
-        </a>
-      </h3>
-      <p>
-        A research and development project focused on creating a system capable of continual learning. The core concept involves:
-      </p>
-      <ul>
-        <li><b>Goal:</b> Automated self-improvement.</li>
-        <li><b>Method:</b> Designing periodic, automated self-training loops.</li>
-        <li><b>Stack:</b> Exploring Python, scikit-learn, and reinforcement learning frameworks.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+###
 
----
-
-### 📫 How to Reach Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/[YOUR_LINKEDIN_USERNAME]">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="mailto:[YOUR_EMAIL@gmail.com]">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  &nbsp;
-  <a href="https://twitter.com/[YOUR_TWITTER_USERNAME]">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
+<p align="left">
+✓ Advanced SLAM techniques and sensor fusion algorithms<br>
+✓ Deep Learning architectures and neural network optimization<br>
+✓ Cybersecurity certifications (CEH, CompTIA Security+)<br>
+✓ Cloud platforms (AWS, Azure) and MLOps best practices<br>
+✓ NPTEL courses in Computer Science and AI
 </p>
+
+###
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/sai-praveen-amujuri-738bb4358/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+  <a href="mailto:saipraveenamujuri@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  </a>
+  <a href="YOUR_PORTFOLIO_URL" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Portfolio&logo=About.me&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="portfolio logo"  />
+  </a>
+  <a href="https://www.kaggle.com/praveen77744" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Kaggle&logo=kaggle&label=&color=20BEFF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="kaggle logo"  />
+  </a>
+  <a href="https://github.com/PraveenAmujuri/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="github logo"  />
+  </a>
+</div>
+
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/PraveenAmujuri/PraveenAmujuri/output/snake.svg" alt="Snake animation" />
+
+###
+
 
