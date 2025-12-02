@@ -32,10 +32,10 @@ Unity → ROS Noetic → RTAB-Map → YOLOv8 → Flask dashboard. Custom Unity�
 
 **Portfolio Platform** — React + Flask, GitHub integration and demo video hosting.
 
-<img align="centre" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
+<img align="center" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 
 ## Tech Stack
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="28" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="28" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="28" />&nbsp;
@@ -46,8 +46,9 @@ Unity → ROS Noetic → RTAB-Map → YOLOv8 → Flask dashboard. Custom Unity�
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="28" />
 </div>
 
-<img align="centre" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
+<img align="center" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
+<br clear="both">
+<div align="center"> <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Snake animation" /></div>
 
-<br clear="both"> <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Snake animation" /> 
-<div align="left">   <a href="https://www.linkedin.com/in/sai-praveen-amujuri-738bb4358/" target="_blank">     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />   </a>   <a href="mailto:saipraveenamujuri@gmail.com" target="_blank">     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />   </a>   <a href="YOUR_PORTFOLIO_URL" target="_blank">     <img src="https://img.shields.io/static/v1?message=Portfolio&logo=About.me&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="portfolio logo"  />   </a>   <a href="https://www.kaggle.com/praveen77744" target="_blank">     <img src="https://img.shields.io/static/v1?message=Kaggle&logo=kaggle&label=&color=20BEFF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="kaggle logo"  />   </a>   <a href="https://github.com/PraveenAmujuri/" target="_blank">     <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="github logo"  />   </a> </div> 
+<div align="center">   <a href="https://www.linkedin.com/in/sai-praveen-amujuri-738bb4358/" target="_blank">     <img align="centre" src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />   </a>   <a href="mailto:saipraveenamujuri@gmail.com" target="_blank">     <img align="centre" src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />   </a>   <a href="YOUR_PORTFOLIO_URL" target="_blank">     <img align="centre" src="https://img.shields.io/static/v1?message=Portfolio&logo=About.me&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="portfolio logo"  />   </a>   <a href="https://www.kaggle.com/praveen77744" target="_blank">     <img align="centre" src="https://img.shields.io/static/v1?message=Kaggle&logo=kaggle&label=&color=20BEFF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="kaggle logo"  />   </a>   <a href="https://github.com/PraveenAmujuri/" target="_blank">     <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="github logo"  />   </a> </div> 
 
