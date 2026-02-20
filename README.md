@@ -9,7 +9,10 @@
 <img align="centre" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" />
 
 ## Quick Stats 
+
 <div align="center">
+  
+  ![](https://leetcard.jacoblin.cool/PraveenAmujuri?border=0&radius=20)
   <!-- Main stats (keeps the "radical" look you used previously) -->
   <img height="160" align="left" src="https://git-hub-stats-card-generator.vercel.app/api/svg?username=PraveenAmujuri&theme=radical" alt="GitHub stats - dracula theme"/>
 <img height="150" align="center" src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" />
