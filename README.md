@@ -104,7 +104,7 @@ status      : Open to AI Engineering, Full Stack, and Backend opportunities
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=PraveenAmujuri&theme=github-compact&hide_border=true&color=00ff87&line=00ff87&point=ffffff&area=true&area_color=00ff8720" width="90%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PraveenAmujuri&layout=donut&theme=github_dark&hide_border=true&langs_count=8&title_color=00ff87&text_color=c9d1d9&bg_color=0d1117" width="38%" />
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=PraveenAmujuri&layout=compact&langs_count=6&theme=shadow_green)](https://github-stats-extended.vercel.app/api/top-langs?username=PraveenAmujuri&layout=compact&langs_count=6&theme=shadow_green)
 
 </div>
 
