@@ -1,0 +1,102 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --ink: #211F1C;
+      --ink-soft: #57534C;
+      --muted: #9C958A;
+      --line: #DDD6C7;
+      --accent: #B54A2C;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #EAEFF8;
+        --ink-soft: #A3B3CA;
+        --muted: #7E8C9F;
+        --line: #30363D;
+        --accent: #E56A47;
+      }
+    }
+    @keyframes drawGrid {
+      from { stroke-dashoffset: 360; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes drawBottomLine {
+      from { stroke-dashoffset: 1000; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes slideHeroScanner {
+      0% { x: -100px; }
+      100% { x: 1000px; }
+    }
+    @keyframes slideVerticalScanner {
+      0% { y: -80px; }
+      100% { y: 360px; }
+    }
+    @keyframes drawAcc {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+    @keyframes accPulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.7; }
+    }
+    @keyframes fade {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .grid-line {
+      stroke-dasharray: 360;
+      stroke-dashoffset: 360;
+      animation: drawGrid 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .vertical-scanner {
+      animation: slideVerticalScanner 4s linear infinite 1.8s;
+    }
+    .bottom-line {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: drawBottomLine 2.2s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+    }
+    .hero-scanner {
+      animation: slideHeroScanner 3s linear infinite 2.4s;
+    }
+    .accent-bar {
+      transform-origin: 88px 229.5px;
+      animation: drawAcc 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards, accPulse 3s ease-in-out infinite 1.8s;
+    }
+    .fade-txt {
+      opacity: 0;
+      animation: fade 1.5s ease-out 0.5s forwards;
+    }
+  </style>
+
+  <!-- Swiss grid marker: thin full-height rule near left margin -->
+  <line class="grid-line" x1="64" y1="0" x2="64" y2="360" stroke="var(--line)" stroke-width="1"/>
+  <rect class="vertical-scanner" width="1" height="80" x="63.5" fill="url(#verticalLaserGradient)" />
+
+  <text class="fade-txt" x="88" y="56" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" letter-spacing="3" fill="var(--muted)">praveenai.tech</text>
+
+  <text class="fade-txt" x="84" y="200" font-family="Georgia,'Iowan Old Style','Times New Roman',serif" font-style="italic" font-size="118" fill="var(--ink)" style="animation-delay: 0.6s;">Hello.</text>
+
+  <rect class="accent-bar" x="88" y="228" width="46" height="3" fill="var(--accent)"/>
+
+  <text class="fade-txt" x="88" y="270" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" letter-spacing="0.5" fill="var(--ink)" style="animation-delay: 0.8s;">Sai Praveen Amujuri</text>
+  <text class="fade-txt" x="88" y="298" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" letter-spacing="0.5" fill="var(--ink-soft)" style="animation-delay: 1s;">Full-Stack Developer · AI Engineer · Backend Developer</text>
+
+  <!-- Shifted bottom line slightly up to avoid clipping -->
+  <line class="bottom-line" x1="0" y1="357.5" x2="1000" y2="357.5" stroke="var(--line)" stroke-width="1.5"/>
+  <rect class="hero-scanner" width="100" height="1.5" y="356.75" fill="url(#laserGradient)" />
+
+  <defs>
+    <linearGradient id="laserGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="var(--accent)" stop-opacity="0" />
+      <stop offset="50%" stop-color="var(--accent)" stop-opacity="1" />
+      <stop offset="100%" stop-color="var(--accent)" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="verticalLaserGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="var(--accent)" stop-opacity="0" />
+      <stop offset="50%" stop-color="var(--accent)" stop-opacity="1" />
+      <stop offset="100%" stop-color="var(--accent)" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,80 @@
+<svg width="420" height="300" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --bg: #EFEBE2;
+      --ink: #211F1C;
+      --line: #DDD6C7;
+      --accent: #B54A2C;
+      --accent-soft: #D98B6F;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161b22;
+        --ink: #EAEFF8;
+        --line: #30363D;
+        --accent: #E56A47;
+        --accent-soft: #d29922;
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .base-fade {
+      animation: fadeIn 1.2s ease-out forwards;
+    }
+
+    @keyframes beamSwing1 {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(5deg); }
+    }
+    @keyframes beamSwing2 {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(-4deg); }
+    }
+    @keyframes beamSwing3 {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(3deg); }
+    }
+    @keyframes drawPrismTri {
+      from { stroke-dashoffset: 400; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes drawPrismRay {
+      from { stroke-dashoffset: 100; }
+      to { stroke-dashoffset: 0; }
+    }
+    .beam-1 {
+      transform-origin: 118px 150px;
+      animation: beamSwing1 6s ease-in-out infinite;
+    }
+    .beam-2 {
+      transform-origin: 118px 150px;
+      animation: beamSwing2 5s ease-in-out infinite 0.5s;
+    }
+    .beam-3 {
+      transform-origin: 118px 150px;
+      animation: beamSwing3 7s ease-in-out infinite 1s;
+    }
+    .prism-tri {
+      stroke-dasharray: 400;
+      stroke-dashoffset: 400;
+      animation: drawPrismTri 2s ease-out forwards;
+    }
+    .prism-ray {
+      stroke-dasharray: 100;
+      stroke-dashoffset: 100;
+      animation: drawPrismRay 1.5s ease-out 0.2s forwards;
+    }
+    
+  </style>
+  <rect x="0" y="0" width="420" height="300" fill="var(--bg)"/>
+  <g class="base-fade">
+  <path class="prism-tri" d="M60 220 L150 90 L 90 220 Z" fill="none" stroke="var(--ink)" stroke-width="1.4"/>
+  <line class="prism-ray" x1="20" y1="150" x2="103" y2="150" stroke="var(--ink)" stroke-width="1.4" opacity="0.7"/>
+  <line class="beam-1" x1="118" y1="150" x2="400" y2="200" stroke="var(--accent)" stroke-width="2"/>
+  <line class="beam-2" x1="118" y1="150" x2="400" y2="178" stroke="var(--accent-soft)" stroke-width="1.4" opacity="0.8"/>
+  <line class="beam-3" x1="118" y1="150" x2="400" y2="222" stroke="var(--accent-soft)" stroke-width="1.4" opacity="0.6"/>
+  </g>
+  <rect x="0.5" y="0.5" width="419" height="299" fill="none" stroke="var(--line)" stroke-width="1"/>
+</svg>

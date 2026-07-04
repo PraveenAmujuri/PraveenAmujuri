@@ -1,0 +1,29 @@
+<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="var(--ink)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <style>
+    :root {
+      --ink: #211F1C;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #EAEFF8;
+      }
+    }
+    @keyframes breathe {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 1; }
+    }
+    .icon-breathe {
+      animation: breathe 3s ease-in-out infinite;
+    }
+
+    @keyframes dotBlink {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 1; }
+    }
+    .dot-blink { animation: dotBlink 2s steps(2, start) infinite; }
+  
+  </style>
+  <rect x="4" y="6" width="20" height="16" rx="1.5"/>
+  <path d="M4 10.5 H24"/>
+  <circle class="dot-blink" cx="7.3" cy="8.3" r="0.6" fill="var(--ink)" stroke="none"/>
+</svg>

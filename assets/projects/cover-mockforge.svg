@@ -1,0 +1,77 @@
+<svg width="420" height="300" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --bg: #EFEBE2;
+      --ink: #211F1C;
+      --line: #DDD6C7;
+      --accent: #B54A2C;
+      --accent-soft: #D98B6F;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161b22;
+        --ink: #EAEFF8;
+        --line: #30363D;
+        --accent: #E56A47;
+        --accent-soft: #d29922;
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .base-fade {
+      animation: fadeIn 1.2s ease-out forwards;
+    }
+
+    @keyframes nodePulse {
+      0%, 100% { opacity: 0.15; }
+      50% { opacity: 0.95; }
+    }
+    .lattice-node {
+      animation: nodePulse 3.5s ease-in-out infinite;
+    }
+    
+  </style>
+  <rect x="0" y="0" width="420" height="300" fill="var(--bg)"/>
+  <g class="base-fade">
+  <line x1="60" y1="150" x2="360" y2="150" stroke="var(--ink)" stroke-width="1" opacity="0.2"/>
+  <line x1="210" y1="60" x2="210" y2="240" stroke="var(--ink)" stroke-width="1" opacity="0.2"/>
+  <circle class="lattice-node" cx="60" cy="60" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 0.0s;"/>
+  <circle class="lattice-node" cx="110" cy="60" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 0.3s;"/>
+  <circle class="lattice-node" cx="160" cy="60" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 0.6s;"/>
+  <circle class="lattice-node" cx="210" cy="60" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 0.9s;"/>
+  <circle class="lattice-node" cx="260" cy="60" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.2s;"/>
+  <circle class="lattice-node" cx="310" cy="60" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.5s;"/>
+  <circle class="lattice-node" cx="360" cy="60" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.8s;"/>
+  <circle class="lattice-node" cx="60" cy="105" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 0.3s;"/>
+  <circle class="lattice-node" cx="110" cy="105" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 0.6s;"/>
+  <circle class="lattice-node" cx="160" cy="105" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 0.9s;"/>
+  <circle class="lattice-node" cx="210" cy="105" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.2s;"/>
+  <circle class="lattice-node" cx="260" cy="105" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.5s;"/>
+  <circle class="lattice-node" cx="310" cy="105" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.8s;"/>
+  <circle class="lattice-node" cx="360" cy="105" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 2.1s;"/>
+  <circle class="lattice-node" cx="60" cy="150" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 0.6s;"/>
+  <circle class="lattice-node" cx="110" cy="150" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 0.9s;"/>
+  <circle class="lattice-node" cx="160" cy="150" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.2s;"/>
+  <circle cx="210" cy="150" r="5" fill="var(--accent)" opacity="1"/>
+  <circle class="lattice-node" cx="260" cy="150" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.8s;"/>
+  <circle class="lattice-node" cx="310" cy="150" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 2.1s;"/>
+  <circle class="lattice-node" cx="360" cy="150" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 2.4s;"/>
+  <circle class="lattice-node" cx="60" cy="195" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 0.9s;"/>
+  <circle class="lattice-node" cx="110" cy="195" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.2s;"/>
+  <circle class="lattice-node" cx="160" cy="195" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.5s;"/>
+  <circle class="lattice-node" cx="210" cy="195" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.8s;"/>
+  <circle class="lattice-node" cx="260" cy="195" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 2.1s;"/>
+  <circle class="lattice-node" cx="310" cy="195" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 2.4s;"/>
+  <circle class="lattice-node" cx="360" cy="195" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 2.7s;"/>
+  <circle class="lattice-node" cx="60" cy="240" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.2s;"/>
+  <circle class="lattice-node" cx="110" cy="240" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.5s;"/>
+  <circle class="lattice-node" cx="160" cy="240" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 1.8s;"/>
+  <circle class="lattice-node" cx="210" cy="240" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 2.1s;"/>
+  <circle class="lattice-node" cx="260" cy="240" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 2.4s;"/>
+  <circle class="lattice-node" cx="310" cy="240" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 2.7s;"/>
+  <circle class="lattice-node" cx="360" cy="240" r="3" fill="var(--ink)" opacity="0.45" style="animation-delay: 3.0s;"/>
+  </g>
+  <rect x="0.5" y="0.5" width="419" height="299" fill="none" stroke="var(--line)" stroke-width="1"/>
+</svg>

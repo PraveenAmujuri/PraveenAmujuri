@@ -1,0 +1,33 @@
+<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="var(--ink)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <style>
+    :root {
+      --ink: #211F1C;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #EAEFF8;
+      }
+    }
+    @keyframes breathe {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 1; }
+    }
+    .icon-breathe {
+      animation: breathe 3s ease-in-out infinite;
+    }
+
+    @keyframes nodeFlash {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    .node-1 { animation: nodeFlash 2.5s infinite; }
+    .node-2 { animation: nodeFlash 2.5s infinite 0.8s; }
+    .node-3 { animation: nodeFlash 2.5s infinite 1.6s; }
+  
+  </style>
+  <circle class="node-1" cx="7" cy="21" r="2.3"/>
+  <circle class="node-2" cx="21" cy="21" r="2.3"/>
+  <circle class="node-3" cx="14" cy="7" r="2.3"/>
+  <path d="M9 19.5 L12.3 9.5"/>
+  <path d="M19 19.5 L15.7 9.5"/>
+</svg>

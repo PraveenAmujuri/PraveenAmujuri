@@ -1,0 +1,54 @@
+<svg width="1000" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --ink: #211F1C;
+      --muted: #9C958A;
+      --line: #DDD6C7;
+      --accent: #B54A2C;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #EAEFF8;
+        --muted: #7E8C9F;
+        --line: #30363D;
+        --accent: #E56A47;
+      }
+    }
+    @keyframes drawFootLine {
+      from { stroke-dashoffset: 1000; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes circlePulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    @keyframes footFade {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .top-line {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: drawFootLine 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .footer-brand {
+      transform-origin: 500px 70px;
+      animation: circlePulse 4s ease-in-out infinite;
+    }
+    .fade-foot-txt {
+      opacity: 0;
+      animation: footFade 1.5s ease-out 0.5s forwards;
+    }
+  </style>
+  <line class="top-line" x1="0" y1="0" x2="1000" y2="0" stroke="var(--line)" stroke-width="1"/>
+
+  <g class="footer-brand">
+    <circle cx="500" cy="70" r="30" fill="none" stroke="var(--ink)" stroke-width="1"/>
+    <line x1="500" y1="58" x2="500" y2="82" stroke="var(--line)" stroke-width="1"/>
+    <text x="497" y="79" text-anchor="end" font-family="Georgia,'Iowan Old Style','Times New Roman',serif" font-size="21" fill="var(--ink)">S</text>
+    <text x="503" y="79" text-anchor="start" font-family="Georgia,'Iowan Old Style','Times New Roman',serif" font-size="21" fill="var(--accent)">A</text>
+  </g>
+
+  <text class="fade-foot-txt" x="500" y="130" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" letter-spacing="0.5" fill="var(--ink)">Sai Praveen Amujuri</text>
+  <text class="fade-foot-txt" x="500" y="152" text-anchor="middle" font-family="Georgia,'Iowan Old Style','Times New Roman',serif" font-style="italic" font-size="14" fill="var(--muted)" style="animation-delay: 0.8s;">Designed with intention.</text>
+</svg>

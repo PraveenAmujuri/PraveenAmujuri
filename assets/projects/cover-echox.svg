@@ -1,0 +1,62 @@
+<svg width="420" height="300" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --bg: #EFEBE2;
+      --ink: #211F1C;
+      --line: #DDD6C7;
+      --accent: #B54A2C;
+      --accent-soft: #D98B6F;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161b22;
+        --ink: #EAEFF8;
+        --line: #30363D;
+        --accent: #E56A47;
+        --accent-soft: #d29922;
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .base-fade {
+      animation: fadeIn 1.2s ease-out forwards;
+    }
+
+    @keyframes soundwave {
+      0%, 100% { transform: scaleY(1); }
+      50% { transform: scaleY(0.5); }
+    }
+    .wave-bar {
+      transform-origin: center;
+      animation: soundwave 3s ease-in-out infinite;
+    }
+    
+  </style>
+  <rect x="0" y="0" width="420" height="300" fill="var(--bg)"/>
+  <g class="base-fade">
+  <rect class="wave-bar" x="40.0" y="139.0" width="8.6" height="22" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.0s; animation-duration: 2.2s;"/>
+  <rect class="wave-bar" x="56.6" y="131.0" width="8.6" height="38" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.4s; animation-duration: 2.6s;"/>
+  <rect class="wave-bar" x="73.1" y="120.0" width="8.6" height="60" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.8s; animation-duration: 3.0s;"/>
+  <rect class="wave-bar" x="89.7" y="105.0" width="8.6" height="90" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 1.2s; animation-duration: 2.2s;"/>
+  <rect class="wave-bar" x="106.3" y="85.0" width="8.6" height="130" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 1.6s; animation-duration: 2.6s;"/>
+  <rect class="wave-bar" x="122.9" y="65.0" width="8.6" height="170" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.0s; animation-duration: 3.0s;"/>
+  <rect class="wave-bar" x="139.4" y="75.0" width="8.6" height="150" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.4s; animation-duration: 2.2s;"/>
+  <rect class="wave-bar" x="156.0" y="95.0" width="8.6" height="110" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.8s; animation-duration: 2.6s;"/>
+  <rect class="wave-bar" x="172.6" y="112.5" width="8.6" height="75" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 1.2s; animation-duration: 3.0s;"/>
+  <rect class="wave-bar" x="189.1" y="125.0" width="8.6" height="50" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 1.6s; animation-duration: 2.2s;"/>
+  <rect class="wave-bar" x="205.7" y="133.0" width="8.6" height="34" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.0s; animation-duration: 2.6s;"/>
+  <rect class="wave-bar" x="222.3" y="140.0" width="8.6" height="20" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.4s; animation-duration: 3.0s;"/>
+  <rect class="wave-bar" x="238.9" y="128.0" width="8.6" height="44" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.8s; animation-duration: 2.2s;"/>
+  <rect class="wave-bar" x="255.4" y="110.0" width="8.6" height="80" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 1.2s; animation-duration: 2.6s;"/>
+  <rect class="wave-bar" x="272.0" y="90.0" width="8.6" height="120" rx="4.3" fill="var(--accent)" opacity="1" style="animation-delay: 1.6s; animation-duration: 3.0s;"/>
+  <rect class="wave-bar" x="288.6" y="70.0" width="8.6" height="160" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.0s; animation-duration: 2.2s;"/>
+  <rect class="wave-bar" x="305.1" y="80.0" width="8.6" height="140" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.4s; animation-duration: 2.6s;"/>
+  <rect class="wave-bar" x="321.7" y="102.5" width="8.6" height="95" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.8s; animation-duration: 3.0s;"/>
+  <rect class="wave-bar" x="338.3" y="120.0" width="8.6" height="60" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 1.2s; animation-duration: 2.2s;"/>
+  <rect class="wave-bar" x="354.9" y="132.0" width="8.6" height="36" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 1.6s; animation-duration: 2.6s;"/>
+  <rect class="wave-bar" x="371.4" y="138.0" width="8.6" height="24" rx="4.3" fill="var(--ink)" opacity="0.55" style="animation-delay: 0.0s; animation-duration: 3.0s;"/>
+  </g>
+  <rect x="0.5" y="0.5" width="419" height="299" fill="none" stroke="var(--line)" stroke-width="1"/>
+</svg>

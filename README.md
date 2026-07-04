@@ -1,147 +1,267 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0a,50:00ff87,100:0a0a0a&height=200&section=header&text=Sai%20Praveen%20Amujuri&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=55&desc=Full%20Stack%20Developer%20%7C%20AI%20Engineer%20%7C%20Backend%20Developer&descAlignY=78&descSize=22&descColor=00ff87" />
-
+<a href="https://www.praveenai.tech" target="_blank">
+  <img src="./assets/branding/hero.svg" width="100%" alt="Sai Praveen Amujuri" />
+</a>
 </div>
+
+<br/>
+
+<img src="./assets/sections/section-who-i-am.svg" width="100%" alt="About" />
+
+<br/>
+
+### Who I Am
+
+I am a full-stack developer and AI engineer. I focus on building web applications and integrating machine learning models into software systems.
+
+I work across the stack, using React and Next.js for front-end development, and FastAPI, Node.js, and Laravel for backend services. Lately, I have been spending more time connecting LLMs and other AI tools to existing application workflows.
+
+### What I Build
+
+I build tools, APIs, and web applications that solve specific problems. Some of my recent projects include video translation tools, automated code review assistants, and mock API sandboxes for developers.
+
+When building software, I focus on writing clean code, handling errors properly, and making sure the system works reliably under normal use.
+
+<img src="./assets/illustrations/divider.svg" width="100%" alt="" />
+
+<img src="./assets/sections/section-selected-projects.svg" width="100%" alt="Selected Work" />
+
+<br/>
+
+<table>
+<tr>
+<td width="280" valign="top">
+<img src="./assets/projects/cover-echox.svg" width="100%" />
+</td>
+<td valign="top">
+
+### EchoX
+
+An application that translates and dubs videos. It automates transcription, translation, and voice synthesis to generate translated audio and subtitles for uploaded files or YouTube links.
+
+`React` `FastAPI` `Tauri` `Docker` `Gemini`
+
+[View repository ↗](https://github.com/PraveenAmujuri/ai_video_translator) &nbsp;·&nbsp; [Live demo ↗](https://echox.praveenai.tech)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td width="280" valign="top">
+<img src="./assets/projects/cover-prism.svg" width="100%" />
+</td>
+<td valign="top">
+
+### PRISM
+
+A tool that uses language models to automate code reviews on pull requests. It performs compliance checks, generates documentation, and suggests improvements for code changes.
+
+`React` `Node.js` `AI Agents` `GitHub API`
+
+[View repository ↗](https://github.com/PraveenAmujuri/prism) &nbsp;·&nbsp; [Live demo ↗](https://prism.praveenai.tech)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td width="280" valign="top">
+<img src="./assets/projects/cover-mockforge.svg" width="100%" />
+</td>
+<td valign="top">
+
+### MockForge
+
+A platform for mocking REST APIs and creating sandbox endpoints. It includes request logging, API key management, and latency simulation to help developers test integrations.
+
+`Next.js` `NestJS` `PostgreSQL` `Prisma`
+
+[View repository ↗](https://github.com/PraveenAmujuri/MockForge) &nbsp;·&nbsp; [Live demo ↗](https://mock.praveenai.tech)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td width="280" valign="top">
+<img src="./assets/projects/cover-medistream.svg" width="100%" />
+</td>
+<td valign="top">
+
+### MediStream AI
+
+A web application for hospital triage and appointment scheduling. It uses language models to analyze symptoms, calculate urgency scores, and schedule appointments based on priority.
+
+`React` `FastAPI` `MongoDB` `Gemini`
+
+[View repository ↗](https://github.com/PraveenAmujuri/medistream-ai-hospital-booking) &nbsp;·&nbsp; [Live demo ↗](https://med.praveenai.tech)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td width="280" valign="top">
+<img src="./assets/projects/cover-careerdna.svg" width="100%" />
+</td>
+<td valign="top">
+
+### CareerDNA
+
+A career helper application built with Python and TensorFlow. It analyzes resumes against job descriptions, scores practice interviews, and recommends learning paths.
+
+`Python` `TensorFlow` `Flask` `Scikit-learn`
+
+[View repository ↗](https://github.com/PraveenAmujuri/careerdna) &nbsp;·&nbsp; [Live demo ↗](https://career.praveenai.tech)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td width="280" valign="top">
+<img src="./assets/projects/cover-lunabot.svg" width="100%" />
+</td>
+<td valign="top">
+
+### LunaBot
+
+A prototype simulation of a lunar rover built with Unity and ROS. It uses YOLOv8 and SLAM to navigate environments and map objects in real-time.
+
+`Python` `Unity` `ROS` `YOLOv8`
+
+[View repository ↗](https://github.com/PraveenAmujuri/LunaBot_Prototype)
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/illustrations/divider.svg" width="100%" alt="" />
+
+<img src="./assets/sections/section-technologies.svg" width="100%" alt="Tech Stack" />
+
+<br/>
+
+<table>
+<tr>
+<td width="36" valign="top"><img src="./assets/icons/icon-languages.svg" width="26"/></td>
+<td valign="top">
+
+**Languages**
+Python, JavaScript, TypeScript, Java, PHP, C#
+
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="./assets/icons/icon-ai.svg" width="26"/></td>
+<td valign="top">
+
+**AI / ML**
+TensorFlow, Scikit-learn, OpenCV, YOLOv8, Gemini API, Whisper
+
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="./assets/icons/icon-frontend.svg" width="26"/></td>
+<td valign="top">
+
+**Frontend**
+React, Next.js, Tailwind CSS
+
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="./assets/icons/icon-backend.svg" width="26"/></td>
+<td valign="top">
+
+**Backend**
+FastAPI, Node.js, Express.js, NestJS, Flask, Laravel
+
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="./assets/icons/icon-data.svg" width="26"/></td>
+<td valign="top">
+
+**Databases**
+PostgreSQL, MongoDB, MySQL, SQLite, Prisma
+
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="./assets/icons/icon-cloud.svg" width="26"/></td>
+<td valign="top">
+
+**Cloud & DevOps**
+Docker, Vercel, Render, Azure DevOps, GitHub Actions, AWS EC2, Linux
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/illustrations/divider.svg" width="100%" alt="" />
+
+<img src="./assets/sections/section-currently-exploring.svg" width="100%" alt="Currently Exploring" />
+
+<br/>
+
+Lately, I have been focused on learning and building projects with **LLMs, RAG, MCP, LangGraph, and Multi-Agent Systems**. I am also studying **System Design, Distributed Systems, and Microservices** to understand how to build systems that scale. Additionally, I am exploring MLOps tools like **Docker, MLOps frameworks, and CI/CD pipelines** to learn how to deploy and manage models in production.
+
+<img src="./assets/illustrations/divider.svg" width="100%" alt="" />
+
+<img src="./assets/sections/section-github-activity.svg" width="100%" alt="GitHub Activity" />
+
+<br/>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00FF87&center=true&vCenter=true&width=700&lines=Full+Stack+Dev+%7C+AI%2FML+Student+%7C+Backend+Engineer;React+%E2%80%A2+FastAPI+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+Laravel;Building+AI+products+%26+developer+tools;EchoX+%E2%80%A2+PRISM+%E2%80%A2+MockForge+%E2%80%A2+MediStream+AI)](https://git.io/typing-svg)
-</div>
+<img src="./assets/branding/github-profile-card.svg" width="100%" alt="GitHub Profile Summary" />
 
----
+<br/><br/>
 
-<p align="center">
-  <a href="https://github.com/PraveenAmujuri"><img src="https://komarev.com/ghpvc/?username=PraveenAmujuri&label=Profile+Views&color=00ff87&style=flat-square" /></a>
-  <a href="https://github.com/PraveenAmujuri"><img src="https://img.shields.io/github/followers/PraveenAmujuri?style=flat-square&color=00ff87&logo=github&label=Followers" /></a>
-  <a href="https://www.linkedin.com/in/sai-praveen-amujuri-738bb4358/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin" /></a>
-  <a href="https://www.praveenai.tech"><img src="https://img.shields.io/badge/Portfolio-praveenai.tech-000000?style=flat-square&logo=vercel" /></a>
-  <a href="mailto:saipraveenamujuri@gmail.com"><img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.kaggle.com/praveen77744"><img src="https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=flat-square&logo=kaggle&logoColor=white" /></a>
-</p>
-
----
-
-## 🧠 About Me
-
-```yaml
-name        : Sai Praveen Amujuri
-currently   : Applied AI & Full Stack Engineer
-building    : AI-powered products, developer tools & scalable web apps
-languages   : [Python, JavaScript, TypeScript, Java, PHP]
-frontend    : [React, Next.js, Tailwind CSS, HTML, CSS]
-backend     : [FastAPI, Node.js, Express.js, NestJS, Flask, Laravel, REST APIs]
-ai_ml       : [TensorFlow, Scikit-learn, OpenCV, YOLOv8, Gemini API, Whisper, AWS]
-databases   : [PostgreSQL, MongoDB, MySQL, SQLite, Prisma]
-cloud       : [Docker, Vercel, Render, Azure DevOps, GitHub Actions]
-status      : Open to AI Engineering, Full Stack, and Backend opportunities
-```
-
----
-
-## ⚡ Tech Stack
-
-### AI / Machine Learning
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-111111?style=flat-square)
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google-gemini&logoColor=white)
-
-### Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
-
-### Backend & Frontend
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-### Cloud & DevOps
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azure-devops&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazon-ec2&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-### Databases & Tools
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
----
-
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PraveenAmujuri&theme=github_dark" width="90%" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=PraveenAmujuri&theme=github-compact&hide_border=true&color=00ff87&line=00ff87&point=ffffff&area=true&area_color=00ff8720" width="90%" />
-
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=PraveenAmujuri&layout=compact&langs_count=6&theme=shadow_green)](https://github-stats-extended.vercel.app/api/top-langs?username=PraveenAmujuri&layout=compact&langs_count=6&theme=shadow_green)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PraveenAmujuri&theme=github-compact&hide_border=true&color=E56A47&line=E56A47&point=EAEFF8&area=true&area_color=E56A4720" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PraveenAmujuri&theme=github-compact&hide_border=true&color=B54A2C&line=B54A2C&point=211F1C&area=true&area_color=B54A2C20" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PraveenAmujuri&theme=github-compact&hide_border=true&color=B54A2C&line=B54A2C&point=211F1C&area=true&area_color=B54A2C20" width="90%" alt="GitHub Activity Graph" />
+</picture>
 
 </div>
 
+<img src="./assets/illustrations/divider.svg" width="100%" alt="" />
+
+<img src="./assets/sections/section-connect.svg" width="100%" alt="Contact" />
+
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=PraveenAmujuri&theme=github-dark-blue&hide_border=true&fire=00ff87&ring=00ff87&currStreakLabel=00ff87&sideLabels=c9d1d9&dates=c9d1d9&background=0D1117" width="50%" />
+<a href="https://www.linkedin.com/in/sai-praveen-amujuri-738bb4358/" target="_blank"><img src="./assets/icons/icon-linkedin.svg" height="20" valign="middle" /> LinkedIn</a> &nbsp;·&nbsp; 
+<a href="https://www.praveenai.tech" target="_blank"><img src="./assets/icons/icon-portfolio.svg" height="20" valign="middle" /> Portfolio</a> &nbsp;·&nbsp; 
+<a href="mailto:saipraveenamujuri@gmail.com"><img src="./assets/icons/icon-email.svg" height="20" valign="middle" /> Email</a> &nbsp;·&nbsp; 
+<a href="https://www.kaggle.com/praveen77744" target="_blank"><img src="./assets/icons/icon-kaggle.svg" height="20" valign="middle" /> Kaggle</a>
+
+<br/><br/>
+
+If you'd like to collaborate, discuss a project, or just connect, feel free to reach out.
 
 </div>
 
----
-
-## 📚 Currently Learning
-
-```yaml
-ai            : LLMs, RAG, AI Agents, Multi-Agent Systems
-agentic_ai    : MCP, LangGraph, Tool Calling
-backend       : System Design, Microservices, Distributed Systems
-mlops         : Docker, Model Deployment, CI/CD
-```
-
----
-
-## 🚀 Featured Projects
-
-| 🚀 Project | 📖 Description | 🛠️ Tech Stack | 🔗 Links |
-|------------|----------------|---------------|----------|
-| **EchoX** | AI-powered video translator and dubbing platform supporting YouTube & local media with automated transcription, translation, subtitles, and offline voice synthesis. | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat)&nbsp;![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white&style=flat)&nbsp;![Tauri](https://img.shields.io/badge/-Tauri-FFC131?logo=tauri&logoColor=black&style=flat)&nbsp;![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)&nbsp;![Gemini](https://img.shields.io/badge/-Gemini-4285F4?style=flat) | [Repo](https://github.com/PraveenAmujuri/ai_video_translator) • [Demo](https://echox.praveenai.tech) |
-| **MockForge** | API mocking and endpoint sandbox platform with request logging, API keys, latency simulation, and dynamic REST endpoint generation. | ![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=next.js&logoColor=white&style=flat)&nbsp;![NestJS](https://img.shields.io/badge/-NestJS-E0234E?logo=nestjs&logoColor=white&style=flat)&nbsp;![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat)&nbsp;![Prisma](https://img.shields.io/badge/-Prisma-2D3748?logo=prisma&logoColor=white&style=flat) | [Repo](https://github.com/PraveenAmujuri/MockForge) • [Demo](https://mock.praveenai.tech) |
-| **PRISM** | AI-powered Pull Request Governance Platform using AI agents for automated code review, compliance, documentation, and repository intelligence. | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat)&nbsp;![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)&nbsp;![AI%20Agents](https://img.shields.io/badge/-AI%20Agents-00C853?style=flat)&nbsp;![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat) | [Repo](https://github.com/PraveenAmujuri/prism) • [Demo](https://prism.praveenai.tech) |
-| **MediStream AI** | AI-powered hospital triage and appointment platform using LLM-based symptom analysis, urgency scoring, and priority-based scheduling. | ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat)&nbsp;![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white&style=flat)&nbsp;![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=flat)&nbsp;![Gemini](https://img.shields.io/badge/-Gemini-4285F4?style=flat) | [Repo](https://github.com/PraveenAmujuri/medistream-ai-hospital-booking) • [Demo](https://med.praveenai.tech) |
-| **CareerDNA** | AI career intelligence platform featuring career prediction, ATS resume analysis, interview scoring, and personalized learning roadmaps. | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)&nbsp;![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat)&nbsp;![Flask](https://img.shields.io/badge/-Flask-000000?logo=flask&logoColor=white&style=flat)&nbsp;![Scikit--learn](https://img.shields.io/badge/-Scikit--learn-F7931E?logo=scikitlearn&logoColor=white&style=flat) | [Repo](https://github.com/PraveenAmujuri/careerdna) • [Demo](https://career.praveenai.tech) |
-| **LunaBot** | Autonomous lunar rover prototype integrating Unity, ROS, SLAM, YOLOv8, and real-time telemetry for autonomous navigation and semantic mapping. | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)&nbsp;![Unity](https://img.shields.io/badge/-Unity-000000?logo=unity&logoColor=white&style=flat)&nbsp;![ROS](https://img.shields.io/badge/-ROS-22314E?logo=ros&logoColor=white&style=flat)&nbsp;![YOLO](https://img.shields.io/badge/-YOLO-111111?style=flat) | [Repo](https://github.com/PraveenAmujuri/LunaBot_Prototype) |
-
----
+<br/>
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:00ff87&height=100&section=footer&reversal=false" />
-
+<img src="./assets/branding/footer.svg" width="100%" alt="" />
 </div>

@@ -1,0 +1,21 @@
+<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="var(--ink)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <style>
+    :root {
+      --ink: #211F1C;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #EAEFF8;
+      }
+    }
+    @keyframes breathe {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 1; }
+    }
+    .icon-breathe {
+      animation: breathe 3s ease-in-out infinite;
+    }
+
+  </style>
+  <path class="icon-breathe" d="M9 20 C5 20 5 14.5 9.3 14.2 C10 10.5 15.5 9.7 17.3 13 C22.5 12.6 23 20 18 20 Z"/>
+</svg>

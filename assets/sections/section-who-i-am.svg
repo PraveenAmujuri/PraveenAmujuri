@@ -1,0 +1,67 @@
+<svg width="1000" height="168" viewBox="0 0 1000 168" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --muted: #9C958A;
+      --accent: #B54A2C;
+      --ink: #211F1C;
+      --line: #DDD6C7;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --muted: #7E8C9F;
+        --accent: #E56A47;
+        --ink: #EAEFF8;
+        --line: #30363D;
+      }
+    }
+    @keyframes drawRect {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes drawLine {
+      from { stroke-dashoffset: 872; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes slideSectionScanner {
+      0% { x: -80px; }
+      100% { x: 936px; }
+    }
+    @keyframes accentBreathe {
+      0%, 100% { transform: scaleX(1); }
+      50% { transform: scaleX(1.6); }
+    }
+    .accent-rect {
+      transform-origin: 64px 41.5px;
+      animation: drawRect 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards, accentBreathe 4s ease-in-out infinite 1.2s;
+    }
+    .hairline {
+      stroke-dasharray: 872;
+      stroke-dashoffset: 872;
+      animation: drawLine 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+    }
+    .scanner {
+      animation: slideSectionScanner 3s linear infinite 1.7s;
+    }
+    .fade-item {
+      opacity: 0;
+      animation: fadeIn 1.5s ease-out 0.4s forwards;
+    }
+  </style>
+  <rect class="accent-rect" x="64" y="40" width="26" height="3" fill="var(--accent)"/>
+  <text class="fade-item" x="64" y="34" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="var(--muted)">01</text>
+  <text class="fade-item" x="104" y="46" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="var(--muted)">PERSPECTIVE</text>
+  <text class="fade-item" x="64" y="112" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="52" fill="var(--ink)">About</text>
+  <line class="hairline" x1="64" y1="140" x2="936" y2="140" stroke="var(--line)" stroke-width="1"/>
+  <rect class="scanner" width="80" height="1" y="139.5" fill="url(#laserGradient)" />
+  <defs>
+    <linearGradient id="laserGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="var(--accent)" stop-opacity="0" />
+      <stop offset="50%" stop-color="var(--accent)" stop-opacity="1" />
+      <stop offset="100%" stop-color="var(--accent)" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+</svg>

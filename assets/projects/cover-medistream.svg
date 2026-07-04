@@ -1,0 +1,52 @@
+<svg width="420" height="300" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --bg: #EFEBE2;
+      --ink: #211F1C;
+      --line: #DDD6C7;
+      --accent: #B54A2C;
+      --accent-soft: #D98B6F;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161b22;
+        --ink: #EAEFF8;
+        --line: #30363D;
+        --accent: #E56A47;
+        --accent-soft: #d29922;
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .base-fade {
+      animation: fadeIn 1.2s ease-out forwards;
+    }
+
+    @keyframes heartPulse {
+      0%, 100% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.6); opacity: 1; }
+    }
+    @keyframes vitalTravel {
+      0% { stroke-dashoffset: 800; }
+      100% { stroke-dashoffset: -800; }
+    }
+    .pulse-dot {
+      transform-origin: 205px 60px;
+      animation: heartPulse 1.5s ease-in-out infinite;
+    }
+    .vital-pulse {
+      stroke-dasharray: 80 720;
+      animation: vitalTravel 4s linear infinite;
+    }
+    
+  </style>
+  <rect x="0" y="0" width="420" height="300" fill="var(--bg)"/>
+  <g class="base-fade">
+  <path d="M20,150 L140,150 L160,90 L185,210 L205,60 L225,150 L400,150" fill="none" stroke="var(--ink)" stroke-width="1.6" opacity="0.25"/>
+  <path class="vital-pulse" d="M20,150 L140,150 L160,90 L185,210 L205,60 L225,150 L400,150" fill="none" stroke="var(--accent)" stroke-width="2.5" opacity="0.9"/>
+  <circle class="pulse-dot" cx="205" cy="60" r="5" fill="var(--accent)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="419" height="299" fill="none" stroke="var(--line)" stroke-width="1"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="420" height="300" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --bg: #EFEBE2;
+      --ink: #211F1C;
+      --line: #DDD6C7;
+      --accent: #B54A2C;
+      --accent-soft: #D98B6F;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161b22;
+        --ink: #EAEFF8;
+        --line: #30363D;
+        --accent: #E56A47;
+        --accent-soft: #d29922;
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .base-fade {
+      animation: fadeIn 1.2s ease-out forwards;
+    }
+
+    @keyframes helixWave {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(6px); }
+    }
+    .helix-arc {
+      animation: helixWave 4s ease-in-out infinite;
+    }
+    
+  </style>
+  <rect x="0" y="0" width="420" height="300" fill="var(--bg)"/>
+  <g class="base-fade">
+  <path class="helix-arc" d="M100 240 Q 210 200 320 240" fill="none" stroke="var(--ink)" stroke-width="1.6" opacity="0.4" style="animation-delay: 0.0s;"/>
+  <path class="helix-arc" d="M100 208 Q 210 168 320 208" fill="none" stroke="var(--ink)" stroke-width="1.6" opacity="0.4" style="animation-delay: 0.4s;"/>
+  <path class="helix-arc" d="M100 176 Q 210 136 320 176" fill="none" stroke="var(--ink)" stroke-width="1.6" opacity="0.4" style="animation-delay: 0.8s;"/>
+  <path class="helix-arc" d="M100 144 Q 210 104 320 144" fill="none" stroke="var(--accent)" stroke-width="1.6" opacity="1" style="animation-delay: 1.2s;"/>
+  <path class="helix-arc" d="M100 112 Q 210 72 320 112" fill="none" stroke="var(--ink)" stroke-width="1.6" opacity="0.4" style="animation-delay: 1.6s;"/>
+  <path class="helix-arc" d="M100 80 Q 210 40 320 80" fill="none" stroke="var(--ink)" stroke-width="1.6" opacity="0.4" style="animation-delay: 2.0s;"/>
+  </g>
+  <rect x="0.5" y="0.5" width="419" height="299" fill="none" stroke="var(--line)" stroke-width="1"/>
+</svg>

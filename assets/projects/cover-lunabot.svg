@@ -1,0 +1,68 @@
+<svg width="420" height="300" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --bg: #EFEBE2;
+      --ink: #211F1C;
+      --line: #DDD6C7;
+      --accent: #B54A2C;
+      --accent-soft: #D98B6F;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161b22;
+        --ink: #EAEFF8;
+        --line: #30363D;
+        --accent: #E56A47;
+        --accent-soft: #d29922;
+      }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .base-fade {
+      animation: fadeIn 1.2s ease-out forwards;
+    }
+
+    @keyframes rotateClockwise {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes rotateCounter {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(-360deg); }
+    }
+    @keyframes crescentBreathe {
+      0%, 100% { opacity: 0.85; }
+      50% { opacity: 0.55; }
+    }
+    @keyframes orbitDot {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .orbit-ring-1 {
+      transform-origin: 180px 150px;
+      animation: rotateClockwise 20s linear infinite;
+    }
+    .orbit-ring-2 {
+      transform-origin: 180px 150px;
+      animation: rotateCounter 30s linear infinite;
+    }
+    .luna-crescent {
+      animation: crescentBreathe 4s ease-in-out infinite;
+    }
+    .luna-dot {
+      transform-origin: 180px 150px;
+      animation: orbitDot 10s linear infinite;
+    }
+    
+  </style>
+  <rect x="0" y="0" width="420" height="300" fill="var(--bg)"/>
+  <g class="base-fade">
+  <circle class="orbit-ring-1" cx="180" cy="150" r="70" fill="none" stroke="var(--ink)" stroke-width="1.2" opacity="0.35"/>
+  <circle class="orbit-ring-2" cx="180" cy="150" r="100" fill="none" stroke="var(--ink)" stroke-width="1" opacity="0.2"/>
+  <path class="luna-crescent" d="M 250 110 A 46 46 0 1 0 250 190 A 36 36 0 1 1 250 110 Z" fill="var(--ink)" opacity="0.85"/>
+  <circle class="luna-dot" cx="300" cy="95" r="3" fill="var(--accent)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="419" height="299" fill="none" stroke="var(--line)" stroke-width="1"/>
+</svg>

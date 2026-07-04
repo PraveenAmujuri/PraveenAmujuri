@@ -1,0 +1,30 @@
+<svg width="88" height="88" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --ink: #211F1C;
+      --line: #DDD6C7;
+      --accent: #B54A2C;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #EAEFF8;
+        --line: #30363D;
+        --accent: #E56A47;
+      }
+    }
+    @keyframes pulseMono {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.03); }
+    }
+    .monogram-group {
+      transform-origin: 44px 44px;
+      animation: pulseMono 5s ease-in-out infinite;
+    }
+  </style>
+  <g class="monogram-group">
+    <circle cx="44" cy="44" r="42" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+    <line x1="44" y1="28" x2="44" y2="60" stroke="var(--line)" stroke-width="1"/>
+    <text x="40" y="56" text-anchor="end" font-family="Georgia,'Iowan Old Style','Times New Roman',serif" font-size="30" fill="var(--ink)">S</text>
+    <text x="48" y="56" text-anchor="start" font-family="Georgia,'Iowan Old Style','Times New Roman',serif" font-size="30" fill="var(--accent)">A</text>
+  </g>
+</svg>
