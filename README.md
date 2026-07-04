@@ -231,15 +231,11 @@ Lately, I have been focused on learning and building projects with **LLMs, RAG, 
 
 <div align="center">
 
-<img src="./assets/branding/github-profile-card.svg" width="100%" alt="GitHub Profile Summary" />
+<img src="https://praveen-github-stats.saipraveenamujuri.workers.dev/profile.svg?v=2.2" width="100%" alt="GitHub Profile Summary" />
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PraveenAmujuri&theme=github-compact&hide_border=true&color=E56A47&line=E56A47&point=EAEFF8&area=true&area_color=E56A4720" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PraveenAmujuri&theme=github-compact&hide_border=true&color=B54A2C&line=B54A2C&point=211F1C&area=true&area_color=B54A2C20" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PraveenAmujuri&theme=github-compact&hide_border=true&color=B54A2C&line=B54A2C&point=211F1C&area=true&area_color=B54A2C20" width="90%" alt="GitHub Activity Graph" />
-</picture>
+<img src="https://praveen-github-stats.saipraveenamujuri.workers.dev/activity.svg?v=2.2" width="100%" alt="GitHub Activity Graph" />
 
 </div>
 

@@ -13,11 +13,17 @@ contribs_2026 = 348
 current_streak = 3
 longest_streak = 14
 
+# Check for GITHUB_TOKEN to avoid API rate limiting in GitHub Actions
+token = os.environ.get("GITHUB_TOKEN")
+headers = {'User-Agent': 'Mozilla/5.0'}
+if token:
+    headers['Authorization'] = f"token {token}"
+
 try:
     # 1. Fetch Repos & Followers from GitHub API
     req = urllib.request.Request(
         f"https://api.github.com/users/{username}",
-        headers={'User-Agent': 'Mozilla/5.0'}
+        headers=headers
     )
     with urllib.request.urlopen(req, timeout=5) as response:
         data = json.loads(response.read().decode())
