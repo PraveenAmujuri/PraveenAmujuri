@@ -28,129 +28,95 @@ When building software, I focus on writing clean code, handling errors properly,
 
 <br/>
 
-<table>
-<tr>
-<td width="280" valign="top">
-<img src="./assets/projects/cover-echox.svg" width="100%" />
-</td>
-<td valign="top">
+<!-- EchoX -->
+<p>
+  <picture>
+    <source media="(min-width: 769px)" srcset="./assets/projects/cover-echox.svg" width="280" />
+    <source media="(max-width: 768px)" srcset="./assets/projects/cover-echox.svg" width="100%" />
+    <img align="left" src="./assets/projects/cover-echox.svg" width="280" style="max-width:100%; height:auto; margin-top:10px;" />
+  </picture>
+ <b>EchoX</b>
+  
+  An application that translates and dubs videos. It automates transcription, translation, and voice synthesis to generate translated audio and subtitles for uploaded files or YouTube links.<br/><br/>
+  <code>React</code> <code>FastAPI</code> <code>Tauri</code> <code>Docker</code> <code>Gemini</code><br/><br/>
+  <a href="https://github.com/PraveenAmujuri/ai_video_translator">View repository ↗</a> &nbsp;·&nbsp; <a href="https://echox.praveenai.tech">Live demo ↗</a>
+</p>
+<br clear="left"/><br/><br/>
 
-### EchoX
+<!-- PRISM -->
+<p>
+  <picture>
+    <source media="(min-width: 769px)" srcset="./assets/projects/cover-prism.svg" width="280" />
+    <source media="(max-width: 768px)" srcset="./assets/projects/cover-prism.svg" width="100%" />
+    <img align="left" src="./assets/projects/cover-prism.svg" width="280" style="max-width:100%; height:auto; margin-top:10px;" />
+  </picture>
+  <b>PRISM</b>
+  
+  A tool that uses language models to automate code reviews on pull requests. It performs compliance checks, generates documentation, and suggests improvements for code changes.<br/><br/>
+  <code>React</code> <code>Node.js</code> <code>AI Agents</code> <code>GitHub API</code><br/><br/>
+  <a href="https://github.com/PraveenAmujuri/prism">View repository ↗</a> &nbsp;·&nbsp; <a href="https://prism.praveenai.tech">Live demo ↗</a>
+</p>
+<br clear="left"/><br/><br/>
 
-An application that translates and dubs videos. It automates transcription, translation, and voice synthesis to generate translated audio and subtitles for uploaded files or YouTube links.
+<!-- MockForge -->
+<p>
+  <picture>
+    <source media="(min-width: 769px)" srcset="./assets/projects/cover-mockforge.svg" width="280" />
+    <source media="(max-width: 768px)" srcset="./assets/projects/cover-mockforge.svg" width="100%" />
+    <img align="left" src="./assets/projects/cover-mockforge.svg" width="280" style="max-width:100%; height:auto; margin-top:10px;" />
+  </picture>
+  <b>MockForge</b>
+  
+  A platform for mocking REST APIs and creating sandbox endpoints. It includes request logging, API key management, and latency simulation to help developers test integrations.<br/><br/>
+  <code>Next.js</code> <code>NestJS</code> <code>PostgreSQL</code> <code>Prisma</code><br/><br/>
+  <a href="https://github.com/PraveenAmujuri/MockForge">View repository ↗</a> &nbsp;·&nbsp; <a href="https://mock.praveenai.tech">Live demo ↗</a>
+</p>
+<br clear="left"/><br/><br/>
 
-`React` `FastAPI` `Tauri` `Docker` `Gemini`
+<!-- MediStream AI -->
+<p>
+  <picture>
+    <source media="(min-width: 769px)" srcset="./assets/projects/cover-medistream.svg" width="280" />
+    <source media="(max-width: 768px)" srcset="./assets/projects/cover-medistream.svg" width="100%" />
+    <img align="left" src="./assets/projects/cover-medistream.svg" width="280" style="max-width:100%; height:auto; margin-top:10px;" />
+  </picture>
+  <b>MediStream AI</b>
+  
+  A web application for hospital triage and appointment scheduling. It uses language models to analyze symptoms, calculate urgency scores, and schedule appointments based on priority.<br/><br/>
+  <code>React</code> <code>FastAPI</code> <code>MongoDB</code> <code>Gemini</code><br/><br/>
+  <a href="https://github.com/PraveenAmujuri/medistream-ai-hospital-booking">View repository ↗</a> &nbsp;·&nbsp; <a href="https://med.praveenai.tech">Live demo ↗</a>
+</p>
+<br clear="left"/><br/><br/>
 
-[View repository ↗](https://github.com/PraveenAmujuri/ai_video_translator) &nbsp;·&nbsp; [Live demo ↗](https://echox.praveenai.tech)
+<!-- CareerDNA -->
+<p>
+  <picture>
+    <source media="(min-width: 769px)" srcset="./assets/projects/cover-careerdna.svg" width="280" />
+    <source media="(max-width: 768px)" srcset="./assets/projects/cover-careerdna.svg" width="100%" />
+    <img align="left" src="./assets/projects/cover-careerdna.svg" width="280" style="max-width:100%; height:auto; margin-top:10px;" />
+  </picture>
+  <b>CareerDNA</b>
+  
+  A career helper application built with Python and TensorFlow. It analyzes resumes against job descriptions, scores practice interviews, and recommends learning paths.<br/><br/>
+  <code>Python</code> <code>TensorFlow</code> <code>Flask</code> <code>Scikit-learn</code><br/><br/>
+  <a href="https://github.com/PraveenAmujuri/careerdna">View repository ↗</a> &nbsp;·&nbsp; <a href="https://career.praveenai.tech">Live demo ↗</a>
+</p>
+<br clear="left"/><br/><br/>
 
-</td>
-</tr>
-</table>
-
-<br/>
-
-<table>
-<tr>
-<td width="280" valign="top">
-<img src="./assets/projects/cover-prism.svg" width="100%" />
-</td>
-<td valign="top">
-
-### PRISM
-
-A tool that uses language models to automate code reviews on pull requests. It performs compliance checks, generates documentation, and suggests improvements for code changes.
-
-`React` `Node.js` `AI Agents` `GitHub API`
-
-[View repository ↗](https://github.com/PraveenAmujuri/prism) &nbsp;·&nbsp; [Live demo ↗](https://prism.praveenai.tech)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<table>
-<tr>
-<td width="280" valign="top">
-<img src="./assets/projects/cover-mockforge.svg" width="100%" />
-</td>
-<td valign="top">
-
-### MockForge
-
-A platform for mocking REST APIs and creating sandbox endpoints. It includes request logging, API key management, and latency simulation to help developers test integrations.
-
-`Next.js` `NestJS` `PostgreSQL` `Prisma`
-
-[View repository ↗](https://github.com/PraveenAmujuri/MockForge) &nbsp;·&nbsp; [Live demo ↗](https://mock.praveenai.tech)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<table>
-<tr>
-<td width="280" valign="top">
-<img src="./assets/projects/cover-medistream.svg" width="100%" />
-</td>
-<td valign="top">
-
-### MediStream AI
-
-A web application for hospital triage and appointment scheduling. It uses language models to analyze symptoms, calculate urgency scores, and schedule appointments based on priority.
-
-`React` `FastAPI` `MongoDB` `Gemini`
-
-[View repository ↗](https://github.com/PraveenAmujuri/medistream-ai-hospital-booking) &nbsp;·&nbsp; [Live demo ↗](https://med.praveenai.tech)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<table>
-<tr>
-<td width="280" valign="top">
-<img src="./assets/projects/cover-careerdna.svg" width="100%" />
-</td>
-<td valign="top">
-
-### CareerDNA
-
-A career helper application built with Python and TensorFlow. It analyzes resumes against job descriptions, scores practice interviews, and recommends learning paths.
-
-`Python` `TensorFlow` `Flask` `Scikit-learn`
-
-[View repository ↗](https://github.com/PraveenAmujuri/careerdna) &nbsp;·&nbsp; [Live demo ↗](https://career.praveenai.tech)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<table>
-<tr>
-<td width="280" valign="top">
-<img src="./assets/projects/cover-lunabot.svg" width="100%" />
-</td>
-<td valign="top">
-
-### LunaBot
-
-A prototype simulation of a lunar rover built with Unity and ROS. It uses YOLOv8 and SLAM to navigate environments and map objects in real-time.
-
-`Python` `Unity` `ROS` `YOLOv8`
-
-[View repository ↗](https://github.com/PraveenAmujuri/LunaBot_Prototype)
-
-</td>
-</tr>
-</table>
+<!-- LunaBot -->
+<p>
+  <picture>
+    <source media="(min-width: 769px)" srcset="./assets/projects/cover-lunabot.svg" width="280" />
+    <source media="(max-width: 768px)" srcset="./assets/projects/cover-lunabot.svg" width="100%" />
+    <img align="left" src="./assets/projects/cover-lunabot.svg" width="280" style="max-width:100%; height:auto; margin-top:10px;" />
+  </picture>
+  <b>LunaBot</b>
+  
+  A prototype simulation of a lunar rover built with Unity and ROS. It uses YOLOv8 and SLAM to navigate environments and map objects in real-time.<br/><br/>
+  <code>Python</code> <code>Unity</code> <code>ROS</code> <code>YOLOv8</code><br/><br/>
+  <a href="https://github.com/PraveenAmujuri/LunaBot_Prototype">View repository ↗</a>
+</p>
+<br clear="left"/><br/>
 
 <img src="./assets/illustrations/divider.svg" width="100%" alt="" />
 
