@@ -1,6 +1,5 @@
-<svg width="100%" height="100%" viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none">
+<svg width="1000" height="1082" viewBox="0 0 1000 1082" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none">
   <style>
-    
     :root {
       --bg: transparent;
       --ink: #211F1C;
@@ -19,49 +18,21 @@
         --accent: #E56A47;
       }
     }
-
-    .grid-line {
-      stroke: var(--line);
-      stroke-width: 1;
-    }
-    .grid-line-dash {
-      stroke: var(--line);
-      stroke-width: 1;
-      stroke-dasharray: 4 4;
-    }
+    .grid-line { stroke: var(--line); stroke-width: 1; }
+    .grid-line-dash { stroke: var(--line); stroke-width: 1; stroke-dasharray: 4 4; }
     .cat-title {
       font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
-      font-size: 22px;
-      font-weight: bold;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
       fill: var(--ink);
     }
     .tech-item {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      font-size: 16px;
+      font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 17px;
       font-weight: 500;
       fill: var(--ink-soft);
     }
-    
-    .desktop-view { display: block; }
-    .mobile-view { display: none; }
-    
-    @media (max-width: 600px) {
-      .desktop-view { display: none; }
-      .mobile-view { display: block; }
-      .cat-title-mobile {
-        font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
-        font-size: 26px;
-        font-weight: bold;
-        fill: var(--ink);
-      }
-      .tech-item-mobile {
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        font-size: 20px;
-        font-weight: 500;
-        fill: var(--ink-soft);
-      }
-    }
-
   </style>
 
   <!-- ================= DEFINITIONS ================= -->
@@ -101,139 +72,75 @@
     <g id="logo-render"><path fill="#46E3B7" fill-opacity="0.55" d="M18.263.007c-3.121-.147-5.744 2.109-6.192 5.082-.018.138-.045.272-.067.405-.696 3.703-3.936 6.507-7.827 6.507-1.388 0-2.691-.356-3.825-.979a.2024.2024 0 0 0-.302.178V24H12v-8.999c0-1.656 1.338-3 2.987-3h2.988c3.382 0 6.103-2.817 5.97-6.244-.12-3.084-2.61-5.603-5.682-5.75" /></g>
   </defs>
 
-  <!-- ================= DESKTOP VIEW (Two Column) ================= -->
-  <g class="desktop-view">
-    <line class="grid-line" x1="64" y1="20" x2="936" y2="20" />
-    <line class="grid-line" x1="64" y1="630" x2="936" y2="630" />
-    <line class="grid-line-dash" x1="64" y1="225" x2="936" y2="225" />
-    <line class="grid-line-dash" x1="64" y1="415" x2="936" y2="415" />
-    <line class="grid-line" x1="500" y1="20" x2="500" y2="630" />
+  <!-- ================= FRAME ================= -->
+  <line class="grid-line" x1="64" y1="20" x2="936" y2="20" />
+  <line class="grid-line" x1="64" y1="1062" x2="936" y2="1062" />
+  <line class="grid-line-dash" x1="64" y1="357" x2="936" y2="357" />
+  <line class="grid-line-dash" x1="64" y1="687" x2="936" y2="687" />
+  <line class="grid-line" x1="500" y1="20" x2="500" y2="1062" />
 
-    <!-- Languages -->
-    <g transform="translate(64, 25)">
-      <text x="0" y="20" class="cat-title">Languages</text>
-      <g transform="translate(0, 35)"><use href="#logo-python" xlink:href="#logo-python" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Python</text></g>
-      <g transform="translate(0, 63)"><use href="#logo-javascript" xlink:href="#logo-javascript" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">JavaScript</text></g>
-      <g transform="translate(0, 91)"><use href="#logo-typescript" xlink:href="#logo-typescript" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">TypeScript</text></g>
-      <g transform="translate(0, 119)"><use href="#logo-openjdk" xlink:href="#logo-openjdk" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Java</text></g>
-      <g transform="translate(0, 147)"><use href="#logo-php" xlink:href="#logo-php" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">PHP</text></g>
-      <g transform="translate(0, 175)"><use href="#logo-csharp" xlink:href="#logo-csharp" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">C#</text></g>
-    </g>
-    <!-- AI / ML -->
-    <g transform="translate(64, 238)">
-      <text x="0" y="20" class="cat-title">AI / ML</text>
-      <g transform="translate(0, 35)"><use href="#logo-tensorflow" xlink:href="#logo-tensorflow" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">TensorFlow</text></g>
-      <g transform="translate(0, 63)"><use href="#logo-scikitlearn" xlink:href="#logo-scikitlearn" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Scikit-learn</text></g>
-      <g transform="translate(0, 91)"><use href="#logo-opencv" xlink:href="#logo-opencv" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">OpenCV</text></g>
-      <g transform="translate(0, 119)"><use href="#logo-ultralytics" xlink:href="#logo-ultralytics" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">YOLOv8</text></g>
-      <g transform="translate(0, 147)"><use href="#logo-googlegemini" xlink:href="#logo-googlegemini" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Gemini API</text></g>
-      <g transform="translate(0, 175)"><use href="#logo-openai" xlink:href="#logo-openai" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Whisper</text></g>
-    </g>
-    <!-- Frontend -->
-    <g transform="translate(64, 451)">
-      <text x="0" y="20" class="cat-title">Frontend</text>
-      <g transform="translate(0, 35)"><use href="#logo-react" xlink:href="#logo-react" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">React</text></g>
-      <g transform="translate(0, 63)"><use href="#logo-nextdotjs" xlink:href="#logo-nextdotjs" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Next.js</text></g>
-      <g transform="translate(0, 91)"><use href="#logo-tailwindcss" xlink:href="#logo-tailwindcss" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Tailwind CSS</text></g>
-    </g>
-    <!-- Backend -->
-    <g transform="translate(530, 25)">
-      <text x="0" y="20" class="cat-title">Backend</text>
-      <g transform="translate(0, 35)"><use href="#logo-fastapi" xlink:href="#logo-fastapi" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">FastAPI</text></g>
-      <g transform="translate(0, 63)"><use href="#logo-nodedotjs" xlink:href="#logo-nodedotjs" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Node.js</text></g>
-      <g transform="translate(0, 91)"><use href="#logo-express" xlink:href="#logo-express" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Express.js</text></g>
-      <g transform="translate(0, 119)"><use href="#logo-nestjs" xlink:href="#logo-nestjs" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">NestJS</text></g>
-      <g transform="translate(0, 147)"><use href="#logo-flask" xlink:href="#logo-flask" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Flask</text></g>
-      <g transform="translate(0, 175)"><use href="#logo-laravel" xlink:href="#logo-laravel" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Laravel</text></g>
-    </g>
-    <!-- Databases -->
-    <g transform="translate(530, 238)">
-      <text x="0" y="20" class="cat-title">Databases</text>
-      <g transform="translate(0, 35)"><use href="#logo-postgresql" xlink:href="#logo-postgresql" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">PostgreSQL</text></g>
-      <g transform="translate(0, 63)"><use href="#logo-mongodb" xlink:href="#logo-mongodb" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">MongoDB</text></g>
-      <g transform="translate(0, 91)"><use href="#logo-mysql" xlink:href="#logo-mysql" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">MySQL</text></g>
-      <g transform="translate(0, 119)"><use href="#logo-sqlite" xlink:href="#logo-sqlite" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">SQLite</text></g>
-      <g transform="translate(0, 147)"><use href="#logo-prisma" xlink:href="#logo-prisma" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Prisma</text></g>
-    </g>
-    <!-- Cloud & DevOps -->
-    <g transform="translate(530, 423)">
-      <text x="0" y="20" class="cat-title">Cloud &amp; DevOps</text>
-      <g transform="translate(0, 35)"><use href="#logo-docker" xlink:href="#logo-docker" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Docker</text></g>
-      <g transform="translate(0, 63)"><use href="#logo-githubactions" xlink:href="#logo-githubactions" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">GitHub Actions</text></g>
-      <g transform="translate(0, 91)"><use href="#logo-azuredevops" xlink:href="#logo-azuredevops" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Azure DevOps</text></g>
-      <g transform="translate(0, 119)"><use href="#logo-amazonec2" xlink:href="#logo-amazonec2" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">AWS EC2</text></g>
-      <g transform="translate(0, 147)"><use href="#logo-linux" xlink:href="#logo-linux" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Linux</text></g>
-      <g transform="translate(0, 175)"><use href="#logo-vercel" xlink:href="#logo-vercel" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Vercel</text></g>
-      <g transform="translate(0, 203)"><use href="#logo-render" xlink:href="#logo-render" transform="scale(0.9)" /><text x="32" y="16" class="tech-item">Render</text></g>
-    </g>
+  <!-- ================= LEFT COLUMN ================= -->
+  <!-- Languages -->
+  <g transform="translate(64, 50)">
+    <text x="0" y="26" class="cat-title">Languages</text>
+    <g transform="translate(0, 56)"><use href="#logo-python" xlink:href="#logo-python" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Python</text></g>
+    <g transform="translate(0, 94)"><use href="#logo-javascript" xlink:href="#logo-javascript" /><text x="34" y="12" dominant-baseline="central" class="tech-item">JavaScript</text></g>
+    <g transform="translate(0, 132)"><use href="#logo-typescript" xlink:href="#logo-typescript" /><text x="34" y="12" dominant-baseline="central" class="tech-item">TypeScript</text></g>
+    <g transform="translate(0, 170)"><use href="#logo-openjdk" xlink:href="#logo-openjdk" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Java</text></g>
+    <g transform="translate(0, 208)"><use href="#logo-php" xlink:href="#logo-php" /><text x="34" y="12" dominant-baseline="central" class="tech-item">PHP</text></g>
+    <g transform="translate(0, 246)"><use href="#logo-csharp" xlink:href="#logo-csharp" /><text x="34" y="12" dominant-baseline="central" class="tech-item">C#</text></g>
   </g>
 
-  <!-- ================= MOBILE VIEW ================= -->
-  <g class="mobile-view">
-    <line class="grid-line" x1="64" y1="20" x2="936" y2="20" />
-    <line class="grid-line" x1="64" y1="630" x2="936" y2="630" />
+  <!-- AI / ML -->
+  <g transform="translate(64, 380)">
+    <text x="0" y="26" class="cat-title">AI / ML</text>
+    <g transform="translate(0, 56)"><use href="#logo-tensorflow" xlink:href="#logo-tensorflow" /><text x="34" y="12" dominant-baseline="central" class="tech-item">TensorFlow</text></g>
+    <g transform="translate(0, 94)"><use href="#logo-scikitlearn" xlink:href="#logo-scikitlearn" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Scikit-learn</text></g>
+    <g transform="translate(0, 132)"><use href="#logo-opencv" xlink:href="#logo-opencv" /><text x="34" y="12" dominant-baseline="central" class="tech-item">OpenCV</text></g>
+    <g transform="translate(0, 170)"><use href="#logo-ultralytics" xlink:href="#logo-ultralytics" /><text x="34" y="12" dominant-baseline="central" class="tech-item">YOLOv8</text></g>
+    <g transform="translate(0, 208)"><use href="#logo-googlegemini" xlink:href="#logo-googlegemini" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Gemini API</text></g>
+    <g transform="translate(0, 246)"><use href="#logo-openai" xlink:href="#logo-openai" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Whisper</text></g>
+  </g>
 
-    <!-- Languages (Mobile) -->
-    <g transform="translate(64, 30)">
-      <text x="0" y="20" class="cat-title-mobile">Languages</text>
-      <g transform="translate(0, 35)"><use href="#logo-python" xlink:href="#logo-python" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Python</text></g>
-      <g transform="translate(290, 35)"><use href="#logo-javascript" xlink:href="#logo-javascript" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">JavaScript</text></g>
-      <g transform="translate(580, 35)"><use href="#logo-typescript" xlink:href="#logo-typescript" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">TypeScript</text></g>
-      <g transform="translate(0, 73)"><use href="#logo-openjdk" xlink:href="#logo-openjdk" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Java</text></g>
-      <g transform="translate(290, 73)"><use href="#logo-php" xlink:href="#logo-php" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">PHP</text></g>
-      <g transform="translate(580, 73)"><use href="#logo-csharp" xlink:href="#logo-csharp" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">C#</text></g>
-    </g>
-    <line class="grid-line-dash" x1="64" y1="120" x2="936" y2="120" />
-    <!-- AI / ML (Mobile) -->
-    <g transform="translate(64, 135)">
-      <text x="0" y="20" class="cat-title-mobile">AI / ML</text>
-      <g transform="translate(0, 35)"><use href="#logo-tensorflow" xlink:href="#logo-tensorflow" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">TensorFlow</text></g>
-      <g transform="translate(290, 35)"><use href="#logo-scikitlearn" xlink:href="#logo-scikitlearn" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Scikit-learn</text></g>
-      <g transform="translate(580, 35)"><use href="#logo-opencv" xlink:href="#logo-opencv" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">OpenCV</text></g>
-      <g transform="translate(0, 73)"><use href="#logo-ultralytics" xlink:href="#logo-ultralytics" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">YOLOv8</text></g>
-      <g transform="translate(290, 73)"><use href="#logo-googlegemini" xlink:href="#logo-googlegemini" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Gemini API</text></g>
-      <g transform="translate(580, 73)"><use href="#logo-openai" xlink:href="#logo-openai" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Whisper</text></g>
-    </g>
-    <line class="grid-line-dash" x1="64" y1="235" x2="936" y2="235" />
-    <!-- Frontend (Mobile) -->
-    <g transform="translate(64, 250)">
-      <text x="0" y="20" class="cat-title-mobile">Frontend</text>
-      <g transform="translate(0, 35)"><use href="#logo-react" xlink:href="#logo-react" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">React</text></g>
-      <g transform="translate(290, 35)"><use href="#logo-nextdotjs" xlink:href="#logo-nextdotjs" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Next.js</text></g>
-      <g transform="translate(580, 35)"><use href="#logo-tailwindcss" xlink:href="#logo-tailwindcss" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Tailwind CSS</text></g>
-    </g>
-    <line class="grid-line-dash" x1="64" y1="310" x2="936" y2="310" />
-    <!-- Backend (Mobile) -->
-    <g transform="translate(64, 325)">
-      <text x="0" y="20" class="cat-title-mobile">Backend</text>
-      <g transform="translate(0, 35)"><use href="#logo-fastapi" xlink:href="#logo-fastapi" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">FastAPI</text></g>
-      <g transform="translate(290, 35)"><use href="#logo-nodedotjs" xlink:href="#logo-nodedotjs" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Node.js</text></g>
-      <g transform="translate(580, 35)"><use href="#logo-express" xlink:href="#logo-express" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Express.js</text></g>
-      <g transform="translate(0, 73)"><use href="#logo-nestjs" xlink:href="#logo-nestjs" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">NestJS</text></g>
-      <g transform="translate(290, 73)"><use href="#logo-flask" xlink:href="#logo-flask" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Flask</text></g>
-      <g transform="translate(580, 73)"><use href="#logo-laravel" xlink:href="#logo-laravel" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Laravel</text></g>
-    </g>
-    <line class="grid-line-dash" x1="64" y1="415" x2="936" y2="415" />
-    <!-- Databases (Mobile) -->
-    <g transform="translate(64, 430)">
-      <text x="0" y="20" class="cat-title-mobile">Databases</text>
-      <g transform="translate(0, 35)"><use href="#logo-postgresql" xlink:href="#logo-postgresql" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">PostgreSQL</text></g>
-      <g transform="translate(290, 35)"><use href="#logo-mongodb" xlink:href="#logo-mongodb" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">MongoDB</text></g>
-      <g transform="translate(580, 35)"><use href="#logo-mysql" xlink:href="#logo-mysql" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">MySQL</text></g>
-      <g transform="translate(0, 73)"><use href="#logo-sqlite" xlink:href="#logo-sqlite" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">SQLite</text></g>
-      <g transform="translate(290, 73)"><use href="#logo-prisma" xlink:href="#logo-prisma" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Prisma</text></g>
-    </g>
-    <line class="grid-line-dash" x1="64" y1="520" x2="936" y2="520" />
-    <!-- Cloud & DevOps (Mobile) -->
-    <g transform="translate(64, 535)">
-      <text x="0" y="20" class="cat-title-mobile">Cloud &amp; DevOps</text>
-      <g transform="translate(0, 35)"><use href="#logo-docker" xlink:href="#logo-docker" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Docker</text></g>
-      <g transform="translate(220, 35)"><use href="#logo-githubactions" xlink:href="#logo-githubactions" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">GitHub Actions</text></g>
-      <g transform="translate(440, 35)"><use href="#logo-azuredevops" xlink:href="#logo-azuredevops" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Azure DevOps</text></g>
-      <g transform="translate(660, 35)"><use href="#logo-amazonec2" xlink:href="#logo-amazonec2" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">AWS EC2</text></g>
-      <g transform="translate(0, 73)"><use href="#logo-linux" xlink:href="#logo-linux" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Linux</text></g>
-      <g transform="translate(220, 73)"><use href="#logo-vercel" xlink:href="#logo-vercel" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Vercel</text></g>
-      <g transform="translate(440, 73)"><use href="#logo-render" xlink:href="#logo-render" transform="scale(1.15)" /><text x="36" y="21" class="tech-item-mobile">Render</text></g>
-    </g>
+  <!-- Frontend -->
+  <g transform="translate(64, 710)">
+    <text x="0" y="26" class="cat-title">Frontend</text>
+    <g transform="translate(0, 56)"><use href="#logo-react" xlink:href="#logo-react" /><text x="34" y="12" dominant-baseline="central" class="tech-item">React</text></g>
+    <g transform="translate(0, 94)"><use href="#logo-nextdotjs" xlink:href="#logo-nextdotjs" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Next.js</text></g>
+    <g transform="translate(0, 132)"><use href="#logo-tailwindcss" xlink:href="#logo-tailwindcss" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Tailwind CSS</text></g>
+  </g>
+
+  <!-- ================= RIGHT COLUMN ================= -->
+  <!-- Backend -->
+  <g transform="translate(530, 50)">
+    <text x="0" y="26" class="cat-title">Backend</text>
+    <g transform="translate(0, 56)"><use href="#logo-fastapi" xlink:href="#logo-fastapi" /><text x="34" y="12" dominant-baseline="central" class="tech-item">FastAPI</text></g>
+    <g transform="translate(0, 94)"><use href="#logo-nodedotjs" xlink:href="#logo-nodedotjs" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Node.js</text></g>
+    <g transform="translate(0, 132)"><use href="#logo-express" xlink:href="#logo-express" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Express.js</text></g>
+    <g transform="translate(0, 170)"><use href="#logo-nestjs" xlink:href="#logo-nestjs" /><text x="34" y="12" dominant-baseline="central" class="tech-item">NestJS</text></g>
+    <g transform="translate(0, 208)"><use href="#logo-flask" xlink:href="#logo-flask" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Flask</text></g>
+    <g transform="translate(0, 246)"><use href="#logo-laravel" xlink:href="#logo-laravel" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Laravel</text></g>
+  </g>
+
+  <!-- Databases -->
+  <g transform="translate(530, 380)">
+    <text x="0" y="26" class="cat-title">Databases</text>
+    <g transform="translate(0, 56)"><use href="#logo-postgresql" xlink:href="#logo-postgresql" /><text x="34" y="12" dominant-baseline="central" class="tech-item">PostgreSQL</text></g>
+    <g transform="translate(0, 94)"><use href="#logo-mongodb" xlink:href="#logo-mongodb" /><text x="34" y="12" dominant-baseline="central" class="tech-item">MongoDB</text></g>
+    <g transform="translate(0, 132)"><use href="#logo-mysql" xlink:href="#logo-mysql" /><text x="34" y="12" dominant-baseline="central" class="tech-item">MySQL</text></g>
+    <g transform="translate(0, 170)"><use href="#logo-sqlite" xlink:href="#logo-sqlite" /><text x="34" y="12" dominant-baseline="central" class="tech-item">SQLite</text></g>
+    <g transform="translate(0, 208)"><use href="#logo-prisma" xlink:href="#logo-prisma" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Prisma</text></g>
+  </g>
+
+  <!-- Cloud & DevOps -->
+  <g transform="translate(530, 710)">
+    <text x="0" y="26" class="cat-title">Cloud &amp; DevOps</text>
+    <g transform="translate(0, 56)"><use href="#logo-docker" xlink:href="#logo-docker" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Docker</text></g>
+    <g transform="translate(0, 94)"><use href="#logo-githubactions" xlink:href="#logo-githubactions" /><text x="34" y="12" dominant-baseline="central" class="tech-item">GitHub Actions</text></g>
+    <g transform="translate(0, 132)"><use href="#logo-azuredevops" xlink:href="#logo-azuredevops" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Azure DevOps</text></g>
+    <g transform="translate(0, 170)"><use href="#logo-amazonec2" xlink:href="#logo-amazonec2" /><text x="34" y="12" dominant-baseline="central" class="tech-item">AWS EC2</text></g>
+    <g transform="translate(0, 208)"><use href="#logo-linux" xlink:href="#logo-linux" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Linux</text></g>
+    <g transform="translate(0, 246)"><use href="#logo-vercel" xlink:href="#logo-vercel" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Vercel</text></g>
+    <g transform="translate(0, 284)"><use href="#logo-render" xlink:href="#logo-render" /><text x="34" y="12" dominant-baseline="central" class="tech-item">Render</text></g>
   </g>
 </svg>
