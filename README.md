@@ -124,62 +124,7 @@ When building software, I focus on writing clean code, handling errors properly,
 
 <br/>
 
-<table>
-<tr>
-<td width="36" valign="top"><img src="./assets/icons/icon-languages.svg" width="26"/></td>
-<td valign="top">
-
-**Languages**
-Python, JavaScript, TypeScript, Java, PHP, C#
-
-</td>
-</tr>
-<tr>
-<td valign="top"><img src="./assets/icons/icon-ai.svg" width="26"/></td>
-<td valign="top">
-
-**AI / ML**
-TensorFlow, Scikit-learn, OpenCV, YOLOv8, Gemini API, Whisper
-
-</td>
-</tr>
-<tr>
-<td valign="top"><img src="./assets/icons/icon-frontend.svg" width="26"/></td>
-<td valign="top">
-
-**Frontend**
-React, Next.js, Tailwind CSS
-
-</td>
-</tr>
-<tr>
-<td valign="top"><img src="./assets/icons/icon-backend.svg" width="26"/></td>
-<td valign="top">
-
-**Backend**
-FastAPI, Node.js, Express.js, NestJS, Flask, Laravel
-
-</td>
-</tr>
-<tr>
-<td valign="top"><img src="./assets/icons/icon-data.svg" width="26"/></td>
-<td valign="top">
-
-**Databases**
-PostgreSQL, MongoDB, MySQL, SQLite, Prisma
-
-</td>
-</tr>
-<tr>
-<td valign="top"><img src="./assets/icons/icon-cloud.svg" width="26"/></td>
-<td valign="top">
-
-**Cloud & DevOps**
-Docker, Vercel, Render, Azure DevOps, GitHub Actions, AWS EC2, Linux
-
-</td>
-</tr>
-</table>
+<img src="./assets/illustrations/tech-stack.svg" width="100%" alt="Tech Stack Overview" />
 
 <img src="./assets/illustrations/divider.svg" width="100%" alt="" />
 
