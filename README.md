@@ -142,11 +142,11 @@ Lately, I have been focused on learning and building projects with **LLMs, RAG, 
 
 <div align="center">
 
-<img src="https://praveen-github-stats.saipraveenamujuri.workers.dev/profile.svg?v=2.2" width="100%" alt="GitHub Profile Summary" />
+<img src="https://praveen-github-stats.saipraveenamujuri.workers.dev/profile.svg?v=2.3" width="100%" alt="GitHub Profile Summary" />
 
 <br/><br/>
 
-<img src="https://praveen-github-stats.saipraveenamujuri.workers.dev/activity.svg?v=2.2" width="100%" alt="GitHub Activity Graph" />
+<img src="https://praveen-github-stats.saipraveenamujuri.workers.dev/activity.svg?v=2.3" width="100%" alt="GitHub Activity Graph" />
 
 </div>
 
