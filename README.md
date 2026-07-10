@@ -172,3 +172,7 @@ If you'd like to collaborate, discuss a project, or just connect, feel free to r
 <div align="center">
 <img src="./assets/branding/footer.svg" width="100%" alt="" />
 </div>
+
+<!-- Profile views tracking pixel -->
+<img src="https://komarev.com/ghpvc/?username=PraveenAmujuri&color=ab542c" width="1" height="1" alt="" style="opacity: 0;" />
+

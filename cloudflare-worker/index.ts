@@ -59,7 +59,7 @@ export default {
       const response = new Response(svgContent, {
         headers: {
           "Content-Type": "image/svg+xml",
-          "Cache-Control": "public, max-age=1800, s-maxage=1800, stale-while-revalidate=600"
+          "Cache-Control": "public, max-age=300, s-maxage=300, stale-while-revalidate=120"
         }
       });
 
